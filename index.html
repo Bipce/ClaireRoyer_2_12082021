@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
@@ -12,108 +19,202 @@
       <h1>Reservia</h1>
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <h3>En plein centre ville ou en pleine nature</h3>
-      <p>Marseille, France</p>
+      <p><i class="fas fa-info-circle"></i> Marseille, France</p>
       <p>Rechercher</p>
 
       <ul>
         <li id="filter">Filtres</li>
-        <li>Economique</li>
-        <li>Familial</li>
-        <li>Romantique</li>
-        <li>Animaux autorisés</li>
+        <li><i class="fas fa-money-bill"></i> Economique</li>
+        <li><i class="fas fa-child"></i> Familial</li>
+        <li><i class="fas fa-heart"></i> Romantique</li>
+        <li><i class="fas fa-dog"></i> Animaux autorisés</li>
       </ul>
 
-      <p>Plus de 500 logements son diponibles dans cette ville</p>
+      <p>
+        <i class="fas fa-info-circle"></i> Plus de 500 logements son diponibles
+        dans cette ville
+      </p>
 
       <nav>
         <ul>
-          <li><a href="#">Hébergement</a></li>
-          <li><a href="#">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
+          <li><a href="#accommodation">Hébergement</a></li>
+          <li><a href="#activities">Activités</a></li>
+          <li>S'inscrire</li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <article>
-        <h1>Hébergements à Marseille</h1>
-        <ul>
-          <li>
-            Auberge de la Cannebière
-            <p>Nuit à partir de 25€</p>
-          </li>
-          <li>
-            Hôtel du port
-            <p>Nuit à parti de 52€</p>
-          </li>
-          <li>
-            Hôtel Les mouettes
-            <p>Nuit à partir de 76€</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            Hôtel de la mer
-            <p>Nuit à partir de 46€</p>
-          </li>
-          <li>
-            Auberge Le Panier
-            <p>Nuit à partir de 23€</p>
-          </li>
-          <li>
-            Hôtel chez Amina
-            <p>Nuit à partir de 96€</p>
-          </li>
-        </ul>
-        <p>Afficher plus</p>
-      </article>
+    <div id="accommodation">
+      <section>
+        <article>
+          <h2>Hébergements à Marseille</h2>
+          <ul>
+            <li id="auberge_la_cannebiere">
+              <img
+                src="projet2_reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Auberge de la Cannebière"
+                id="cannebiere"
+              />
+              Auberge de la Cannebière
+              <p>Nuit à partir de 25€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                alt="Hôtel du port"
+                id="harbor"
+              />
+              Hôtel du port
+              <p>Nuit à parti de 52€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt="Hôtel Les mouettes"
+                id="seagulls"
+              />
+              Hôtel Les mouettes
+              <p>Nuit à partir de 76€</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="Hôtel de la mer"
+                id="beach"
+              />
+              Hôtel de la mer
+              <p>Nuit à partir de 46€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt="Auberge Le Panier"
+                id="basket"
+              />
+              Auberge Le Panier
+              <p>Nuit à partir de 23€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="Hôtel chez Amina"
+                id="amina"
+              />
+              Hôtel chez Amina
+              <p>Nuit à partir de 96€</p>
+            </li>
+          </ul>
+          <p>Afficher plus</p>
+        </article>
 
-      <aside>
-        <h1>Les plus populaires</h1>
+        <aside>
+          <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+          <ul>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="Hôtel Le soleil du matin"
+                id="morning_sunshine"
+              />
+              Hôtel Le soleil du matin
+              <p>Nuit à partir de 128€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Au coeur de l'eau Chambres d'hôtes"
+                id="heart"
+              />
+              Au coeur de l'eau Chambres d'hôtes
+              <p>Nuit à partir de 71€</p>
+            </li>
+            <li>
+              <img
+                src="projet2_reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Hôtel Tout bleu et Blanc"
+                id="blue_and_white"
+              />
+              Hôtel Tout bleu et Blanc
+              <p>Nuit à partir de 68€</p>
+            </li>
+          </ul>
+        </aside>
+      </section>
+    </div>
+
+    <div id="activities">
+      <section>
+        <h2>Activités à Marseille</h2>
         <ul>
-          <li>
-            Hôtel Le soleil du matin
-            <p>Nuit à partir de 128€</p>
+          <li class="big_photo">
+            <img
+              src="projet2_reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              alt="Vieux Port"
+              id="old_harbor"
+            />
+            Vieux Port
           </li>
           <li>
-            Au coeur de l'eau Chambres d'hôtes
-            <p>Nuit à partir de 71€</p>
+            <img
+              src="projet2_reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              alt="Fort de Pomègues"
+              id="pomegues"
+            />
+            Fort de Pomègues
           </li>
           <li>
-            Hôtel Tout bleu et Blanc
-            <p>Nuit à partir de 68€</p>
+            <img
+              src="projet2_reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+              alt="Îles du Frioul"
+              id="frioul"
+            />
+            Îles du Frioul
+          </li>
+          <li class="big_photo">
+            <img
+              src="projet2_reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              alt=""
+              id="calanques"
+            />
+            Parc National des Calanques
+          </li>
+          <li>
+            <img
+              src="projet2_reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+              alt="Notre-Dame-de-la-Garde"
+              id="garde"
+            />
+            Notre-Dame-de-la-Garde
+          </li>
+          <li>
+            <img
+              src="projet2_reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+              alt="Parc Longchamp"
+              id="lonchamp"
+            />
+            Parc Longchamp
           </li>
         </ul>
-      </aside>
-    </section>
-
-    <section>
-      <h1>Activités à Marseille</h1>
-      <ul>
-        <li class="big_photo">Vieux Port</li>
-        <li>Fort de Pomègues</li>
-        <li>Îles du Frioul</li>
-        <li class="big_photo">Parc National des Calanques</li>
-        <li>Notre-Dame-de-la-Garde</li>
-        <li>Parc Longchamp</li>
-      </ul>
-    </section>
+      </section>
+    </div>
 
     <footer>
-      <h1>A propos</h1>
+      <h2>A propos</h2>
       <ul>
         <li>Fonctionnement du site</li>
         <li>Conditions générales de vente</li>
         <li>Données et confidentialité</li>
       </ul>
 
-      <h1>Nos hébergements</h1>
+      <h2>Nos hébergements</h2>
       <ul>
         <li>Charte qualité</li>
         <li>Soumettre votre hôtel</li>
       </ul>
 
-      <h1>Assistance</h1>
+      <h2>Assistance</h2>
       <ul>
         <li>Centre d'aide</li>
         <li>Nous contacter</li>
