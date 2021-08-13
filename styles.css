@@ -146,7 +146,6 @@ nav {
 
 nav ul {
   display: flex;
-  /* justify-content: space-between; */
   list-style: none;
 }
 
@@ -162,6 +161,10 @@ nav a {
   font-weight: normal;
   text-decoration: none;
   color: #0065fc;
+}
+
+nav a:hover {
+  border-top: solid #0065fc;
 }
 
 nav a:visited {
