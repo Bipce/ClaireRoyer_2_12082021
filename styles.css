@@ -171,14 +171,98 @@ nav a:visited {
   color: black;
 }
 
+#accommodation {
+  display: flex;
+}
+
+#marseille {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 70%;
+}
+
+#marseille ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#marseille li {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  list-style: none;
+  border: white 10px solid;
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+  margin-left: -35px;
+}
+.star_icon {
+  color: #0065fc;
+}
+
+#more {
+  font-weight: bold;
+  display: flex;
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+#marseille h2 {
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+#marseille p {
+  margin: 5px;
+}
+
+.description {
+  text-decoration: none;
+  color: black;
+}
+
+.money {
+  font-weight: bold;
+}
+
+.grey_star {
+  color: #f2f2f2;
+}
+
+#popular {
+  width: 30%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+#popular ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#popular li {
+  display: flex;
+  list-style: none;
+  border: white 10px solid;
+  border-radius: 20px;
+}
+
 #cannebiere,
 #harbor,
 #seagulls,
 #beach,
 #basket,
 #amina {
-  width: 200px;
-  height: 110px;
+  width: 300px;
+  height: 150px;
 }
 
 #morning_sunshine,
