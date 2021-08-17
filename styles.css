@@ -7,6 +7,8 @@ body {
   margin: auto;
 }
 
+/* Header */
+
 header {
   display: flex;
 }
@@ -138,6 +140,8 @@ header h3 {
   transition: 0.3s;
 }
 
+/* Menu */
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -171,8 +175,11 @@ nav a:visited {
   color: black;
 }
 
+/* First section: Article --> Accommodation */
+
 #accommodation {
   display: flex;
+  margin-bottom: 90px;
 }
 
 #marseille {
@@ -241,6 +248,8 @@ nav a:visited {
   font-weight: bold;
 }
 
+/* First section: Aside --> Popular */
+
 #popular {
   width: 30%;
   background-color: #f2f2f2;
@@ -256,7 +265,7 @@ nav a:visited {
 
 #popular li {
   display: flex;
-  margin: 20px 0;
+  margin: 15px 0;
   list-style: none;
   border: white 10px solid;
   border-radius: 20px;
@@ -296,6 +305,8 @@ nav a:visited {
 #popular_icon {
   padding-right: 70px;
 }
+
+/* Second section: Activities */
 
 #activities {
   display: flex;
@@ -339,6 +350,8 @@ nav a:visited {
 .small_photo p {
   padding: 0 20px;
 }
+
+/* Photos */
 
 #cannebiere,
 #harbor,
