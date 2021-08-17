@@ -196,6 +196,7 @@ nav a:visited {
   border: white 10px solid;
   border-radius: 20px;
   background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
   margin: 10px;
   margin-left: -35px;
 }
@@ -260,6 +261,7 @@ nav a:visited {
   border: white 10px solid;
   border-radius: 20px;
   background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
   width: 80%;
 }
 
@@ -295,6 +297,43 @@ nav a:visited {
   padding-right: 70px;
 }
 
+#activities {
+  display: flex;
+}
+
+#activities ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#activities li {
+  list-style: none;
+  border: white 0 solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: black 0 2px 5px;
+  margin: 20px;
+}
+
+.small_photo {
+  display: flex;
+  flex-direction: column;
+}
+
+#activities a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.big_photo p {
+  padding: 0 10px 15px 20px;
+}
+
+.small_photo p {
+  padding: 0 20px;
+}
+
 #cannebiere,
 #harbor,
 #seagulls,
@@ -315,9 +354,18 @@ nav a:visited {
 }
 
 #old_harbor,
+#pomegues,
+#frioul,
+#garde,
+#calanques,
+#lonchamp {
+  border-radius: 20px 20px 0 0;
+}
+
+#old_harbor,
 #calanques {
-  width: 250px;
-  height: 300px;
+  width: 280px;
+  height: 340px;
 }
 
 #pomegues {
