@@ -299,25 +299,31 @@ nav a:visited {
 
 #activities {
   display: flex;
-}
-
-#activities ul {
-  display: flex;
+  justify-content: stretch;
   justify-content: space-between;
-}
-
-#activities li {
-  list-style: none;
-  border: white 0 solid;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: black 0 2px 5px;
-  margin: 20px;
 }
 
 .small_photo {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.inside {
+  margin: 20px 0;
+  border: white 0 solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+}
+
+.big_photo {
+  margin: 20px 0;
+  border: white 0 solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
 }
 
 #activities a {
@@ -364,26 +370,26 @@ nav a:visited {
 
 #old_harbor,
 #calanques {
-  width: 280px;
-  height: 340px;
+  width: 350px;
+  height: 380px;
 }
 
 #pomegues {
-  width: 250px;
+  width: 350px;
   height: 150px;
 }
 
 #frioul {
-  width: 14%;
-  height: 1%;
+  width: 350px;
+  height: 100px;
 }
 
 #garde {
-  width: 250px;
+  width: 350px;
   height: 110px;
 }
 
 #lonchamp {
-  width: 250px;
+  width: 350px;
   height: 140px;
 }
