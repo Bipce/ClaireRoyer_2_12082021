@@ -1,0 +1,451 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#main_wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+#cannebiere,
+#harbor,
+#seagulls,
+#beach,
+#basket,
+#amina {
+  border-radius: 20px;
+  width: 300px;
+  height: 150px;
+}
+
+#morning_sunshine,
+#heart,
+#blue_and_white {
+  border-radius: 20px;
+  width: 140px;
+  height: 160px;
+}
+
+#old_harbor,
+#pomegues,
+#frioul,
+#garde,
+#calanques,
+#lonchamp {
+  border-radius: 20px 20px 0 0;
+}
+
+#old_harbor,
+#calanques {
+  width: 350px;
+  height: 380px;
+}
+
+#pomegues {
+  width: 350px;
+  height: 150px;
+}
+
+#frioul {
+  width: 350px;
+  height: 100px;
+}
+
+#garde {
+  width: 350px;
+  height: 110px;
+}
+
+#lonchamp {
+  width: 350px;
+  height: 140px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #0065fc;
+}
+
+header h2 {
+  font-size: 1.3em;
+}
+
+header h3 {
+  font-weight: lighter;
+  font-size: 1.1em;
+  margin-top: -12px;
+}
+
+#button {
+  display: flex;
+}
+
+#map_icon {
+  vertical-align: middle;
+  text-align: center;
+  padding: 18px;
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  border-radius: 20px 0 0 20px;
+  margin-right: -5px;
+}
+
+#city {
+  padding: 16px;
+  font-weight: bold;
+  margin: 0;
+  border-style: dotted;
+  border-color: #f2f2f2;
+}
+
+#research {
+  vertical-align: middle;
+  background-color: #0065fc;
+  font-weight: bold;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  width: 120px;
+  height: 52px;
+  margin-left: -4px;
+  border: none;
+}
+
+#filter {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+#filtres {
+  margin-left: -30px;
+  margin-right: 25px;
+  padding-top: 12px;
+}
+
+#list-item_economic,
+#list-item_family,
+#list-item_romantic,
+#list-item_pets {
+  display: flex;
+  border: solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+#list-item_economic,
+#list-item_romantic {
+  width: 190px;
+}
+
+#list-item_family {
+  width: 150px;
+}
+
+#list-item_pets {
+  width: 230px;
+}
+
+.word {
+  padding: 13px;
+}
+
+#economic_icon,
+#family_icon,
+#romantic_icon,
+#pets_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 20px;
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+#info_icon {
+  padding-right: 8px;
+  background-color: #0065fc;
+  color: white;
+  border: #f2f2f2 solid 2px;
+  border-radius: 50%;
+  width: 10px;
+  font-size: 1.1em;
+}
+
+#list-item_economic:hover,
+#list-item_family:hover,
+#list-item_romantic:hover,
+#list-item_pets:hover {
+  background-color: #deebff;
+  transition: 0.3s;
+}
+
+/* Menu */
+
+nav {
+  margin-left: 320px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 40px;
+  font-weight: bold;
+  color: #0065fc;
+}
+
+nav a {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  border-top: solid #0065fc;
+  color: #0065fc;
+}
+
+/* First section */
+
+#accommodation {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#marseille {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 70%;
+  height: 750px;
+}
+
+#marseille ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#marseille li {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  list-style: none;
+  border: white 10px solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+  margin: 10px;
+  margin-left: -35px;
+}
+.star_icon {
+  color: #0065fc;
+}
+
+.grey_star {
+  color: #f2f2f2;
+}
+
+#more {
+  font-weight: bold;
+  display: flex;
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+#marseille h2 {
+  padding-left: 70px;
+  padding-top: 30px;
+  font-size: 1.3em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#marseille p {
+  margin: 5px;
+  font-size: 1em;
+}
+
+.marseille_description {
+  text-decoration: none;
+  color: black;
+}
+
+.money {
+  font-weight: bold;
+}
+
+/* First section --> Aside */
+
+#popular {
+  width: 30%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 60px;
+}
+
+#popular ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#popular li {
+  display: flex;
+  margin: 15px 0;
+  list-style: none;
+  border: white 10px solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+  width: 80%;
+}
+
+.popular_description {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  position: relative;
+}
+
+.description p {
+  margin-left: 20px;
+  word-wrap: break-word;
+}
+
+#popular .name {
+  font-size: 1.3em;
+}
+
+#popular h2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+#popular_icon {
+  padding-right: 70px;
+}
+
+aside p {
+  margin: 5px;
+}
+
+.star_icon {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Second section */
+
+#activities {
+  display: flex;
+  justify-content: stretch;
+  justify-content: space-between;
+}
+
+.small_photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.inside {
+  margin: 20px 0;
+  border: white 0 solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+}
+
+.big_photo {
+  margin: 20px 0;
+  border: white 0 solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+}
+
+#activities a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.big_photo p {
+  padding: 0 10px 15px 20px;
+}
+
+.small_photo p {
+  padding: 0 20px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  margin: 30px -5px -5px -5px;
+  padding: 50px 0;
+}
+
+#about {
+  width: 40%;
+}
+
+#footer_accommodations {
+  width: 40%;
+}
+
+#assistance {
+  width: 40%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h2 {
+  font-size: 1.2em;
+  margin-left: 40px;
+}
+
+footer li {
+  margin: 10px 0;
+}
