@@ -68,17 +68,48 @@ img {
 
 /* Header */
 
-header {
-  display: flex;
-}
-
 #top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: baseline;
   justify-content: space-between;
 }
 
+#main_title {
+  order: 1;
+}
+
+#menu {
+  order: 2;
+}
+
 header h1 {
+  color: #0065fc;
+}
+
+/* Menu */
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 40px;
+  font-weight: bold;
+  color: #0065fc;
+}
+
+nav a {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  padding-top: 35px;
+}
+
+nav a:hover {
+  border-top: solid #0065fc;
   color: #0065fc;
 }
 
@@ -136,7 +167,6 @@ header h3 {
 
 #filtres {
   margin-left: -30px;
-  margin-right: 25px;
   padding-top: 12px;
 }
 
@@ -162,6 +192,7 @@ header h3 {
 
 #list-item_pets {
   width: 230px;
+  margin-right: 500px;
 }
 
 .word {
@@ -198,35 +229,6 @@ header h3 {
 #list-item_pets:hover {
   background-color: #deebff;
   transition: 0.3s;
-}
-
-/* Menu */
-
-nav {
-  margin-left: 320px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-}
-
-nav li {
-  margin: 0 40px;
-  font-weight: bold;
-  color: #0065fc;
-}
-
-nav a {
-  font-weight: normal;
-  text-decoration: none;
-  color: black;
-}
-
-nav a:hover {
-  border-top: solid #0065fc;
-  color: #0065fc;
 }
 
 /* First section */
