@@ -237,60 +237,76 @@ nav a:hover {
 }
 
 #marseille {
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 70%;
   height: 750px;
 }
 
-#marseille ul {
+#first_ligne,
+#second_ligne {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-#marseille li {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  list-style: none;
-  border: white 10px solid;
+#marseille article {
+  border: white 5px solid;
   border-radius: 20px;
   background-color: white;
   box-shadow: #f2f2f2 0 2px 5px;
   margin: 10px;
-  margin-left: -35px;
+  padding-bottom: 20px;
 }
-.star_icon {
+
+#marseille article img {
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-top: -10px;
+}
+
+#marseille figcaption {
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.star_icon_marseille {
   color: #0065fc;
+  position: absolute;
+  bottom: -30px;
 }
 
 .grey_star {
   color: #f2f2f2;
 }
 
+.text_marseille {
+  position: relative;
+}
+
 #more {
   font-weight: bold;
   display: flex;
   padding-left: 60px;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 1.3em;
 }
 
 #marseille h2 {
-  padding-left: 70px;
+  padding-left: 50px;
   padding-top: 30px;
   font-size: 1.3em;
 }
 
-.name {
+.name_marseille {
   font-weight: bold;
   font-size: 1.2em;
 }
 
 #marseille p {
-  margin: 5px;
-  font-size: 1em;
+  margin: 3px;
 }
 
 .marseille_description {
@@ -361,13 +377,19 @@ nav a:hover {
   padding-right: 70px;
 }
 
-aside p {
-  margin: 5px;
+.star_icon_popular {
+  color: #0065fc;
+  position: absolute;
+  bottom: 0px;
 }
 
-.star_icon {
-  position: absolute;
-  bottom: 0;
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+aside p {
+  margin: 5px;
 }
 
 /* Second section */
@@ -439,11 +461,12 @@ footer {
 
 footer ul {
   list-style: none;
+  margin-left: 10px;
 }
 
 footer h2 {
   font-size: 1.2em;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 footer li {
