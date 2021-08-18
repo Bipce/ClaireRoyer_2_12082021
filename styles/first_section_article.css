@@ -1,0 +1,70 @@
+#accommodation {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#marseille {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 70%;
+  height: 750px;
+}
+
+#marseille ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#marseille li {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  list-style: none;
+  border: white 10px solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #f2f2f2 0 2px 5px;
+  margin: 10px;
+  margin-left: -35px;
+}
+.star_icon {
+  color: #0065fc;
+}
+
+.grey_star {
+  color: #f2f2f2;
+}
+
+#more {
+  font-weight: bold;
+  display: flex;
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+#marseille h2 {
+  padding-left: 70px;
+  padding-top: 30px;
+  font-size: 1.3em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#marseille p {
+  margin: 5px;
+  font-size: 1em;
+}
+
+.marseille_description {
+  text-decoration: none;
+  color: black;
+}
+
+.money {
+  font-weight: bold;
+}

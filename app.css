@@ -1,0 +1,68 @@
+@import "styles/header.css";
+@import "styles/first_section_article.css";
+@import "styles/first_section_aside.css";
+@import "styles/second_section.css";
+@import "styles/footer.css";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#main_wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+#cannebiere,
+#harbor,
+#seagulls,
+#beach,
+#basket,
+#amina {
+  border-radius: 20px;
+  width: 300px;
+  height: 150px;
+}
+
+#morning_sunshine,
+#heart,
+#blue_and_white {
+  border-radius: 20px;
+  width: 140px;
+  height: 160px;
+}
+
+#old_harbor,
+#pomegues,
+#frioul,
+#garde,
+#calanques,
+#lonchamp {
+  border-radius: 20px 20px 0 0;
+}
+
+#old_harbor,
+#calanques {
+  width: 350px;
+  height: 380px;
+}
+
+#pomegues {
+  width: 350px;
+  height: 150px;
+}
+
+#frioul {
+  width: 350px;
+  height: 100px;
+}
+
+#garde {
+  width: 350px;
+  height: 110px;
+}
+
+#lonchamp {
+  width: 350px;
+  height: 140px;
+}
