@@ -3,6 +3,7 @@
 @import "styles/first_section_aside.css";
 @import "styles/second_section.css";
 @import "styles/footer.css";
+@import "styles/smartphone_resolution.css";
 
 body {
   font-family: "Raleway", sans-serif;
