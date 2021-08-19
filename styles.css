@@ -329,16 +329,8 @@ header h3 {
   margin-left: 60px;
 }
 
-#popular ul {
+#popular figure {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#popular li {
-  display: flex;
-  margin: 15px 0;
-  list-style: none;
   border: white 10px solid;
   border-radius: 20px;
   background-color: white;
@@ -353,15 +345,8 @@ header h3 {
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
   margin-left: 20px;
   position: relative;
-}
-
-.description p {
-  margin-left: 20px;
-  word-wrap: break-word;
 }
 
 #popular .name {
