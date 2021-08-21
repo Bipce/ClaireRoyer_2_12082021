@@ -15,7 +15,7 @@
     <link
       href="styles/smartphone_resolution.css"
       rel="stylesheet"
-      media="screen and (max-width: 480px)"
+      media="screen and (max-device-width: 375px)"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,13 +23,18 @@
   </head>
 
   <body>
-    <div id="main_wrapper">
+    <div id="container">
       <header>
         <div id="top">
-          <nav id="main_title">
+          <nav id="logo">
             <ul>
               <li>
-                <h1>Reservia</h1>
+                <h1>
+                  <img
+                    src="projet2_reservia/images/logo/Reservia.svg"
+                    alt="Reservia"
+                  />
+                </h1>
               </li>
             </ul>
           </nav>
@@ -78,27 +83,32 @@
 
         <ul id="filter">
           <li id="filtres">Filtres</li>
-          <li id="list-item_economic">
-            <i class="fas fa-money-bill" id="economic_icon"></i>
-            <span class="word">Économique</span>
-          </li>
-          <li id="list-item_family">
-            <i class="fas fa-child" id="family_icon"></i>
-            <span class="word">Familial</span>
-          </li>
-          <li id="list-item_romantic">
-            <i class="fas fa-heart" id="romantic_icon"></i>
-            <span class="word">Romantique</span>
-          </li>
-          <li id="list-item_pets">
-            <i class="fas fa-dog" id="pets_icon"></i>
-            <span class="word">Animaux autorisés</span>
-          </li>
+          <div id="economic_family">
+            <li id="list-item_economic">
+              <i class="fas fa-money-bill" id="economic_icon"></i>
+              <span class="word">Économique</span>
+            </li>
+            <li id="list-item_family">
+              <i class="fas fa-child" id="family_icon"></i>
+              <span class="word">Familial</span>
+            </li>
+          </div>
+
+          <div id="romantic_pets">
+            <li id="list-item_romantic">
+              <i class="fas fa-heart" id="romantic_icon"></i>
+              <span class="word">Romantique</span>
+            </li>
+            <li id="list-item_pets">
+              <i class="fas fa-dog" id="pets_icon"></i>
+              <span class="word">Animaux autorisés</span>
+            </li>
+          </div>
         </ul>
 
         <div id="info">
+          <i class="fas fa-info-circle" id="info_icon"></i>
           <p>
-            <i class="fas fa-info-circle" id="info_icon"></i>
             <span id="word_info">
               Plus de 500 logements son diponibles dans cette ville</span
             >
