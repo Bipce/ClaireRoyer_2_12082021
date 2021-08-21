@@ -487,14 +487,8 @@ footer {
   padding: 50px 0;
 }
 
-#about {
-  width: 40%;
-}
-
-#footer_accommodations {
-  width: 40%;
-}
-
+#about,
+#footer_accommodations,
 #assistance {
   width: 40%;
 }
@@ -555,6 +549,7 @@ footer li {
   }
 
   #accommodations_activities {
+    margin-top: -10px;
     flex-wrap: nowrap;
     border-bottom: solid #f2f2f2;
     margin-left: -15px;
@@ -571,6 +566,7 @@ footer li {
 
   nav a {
     padding-bottom: 15px;
+    padding-top: 0;
   }
 
   nav a:hover {
@@ -579,6 +575,7 @@ footer li {
 
   #accommodations_activities a:active {
     border-bottom: solid #0065fc;
+    color: #0065fc;
   }
 
   header h2 {
@@ -599,8 +596,8 @@ footer li {
     display: flex;
     position: absolute;
     font-size: 1.2em;
-    color: black;
-    top: 287px;
+    color: white;
+    top: 261px;
     left: 305px;
   }
 
@@ -809,7 +806,48 @@ footer li {
     padding: 0 0 0 20px;
   }
 
+  section h2 {
+    font-size: 1.3em;
+  }
+
   #activities p {
     font-size: 0.9em;
+  }
+
+  /* Footer */
+
+  footer {
+    flex-direction: column;
+  }
+
+  #about,
+  #footer_accommodations,
+  #assistance {
+    width: 60%;
+  }
+
+  footer div {
+    margin: 10px 0;
+  }
+
+  #about {
+    margin-top: -20px;
+  }
+
+  footer ul {
+    margin-left: -20px;
+  }
+
+  footer h2 {
+    font-size: 1.1em;
+    margin-left: 20px;
+  }
+
+  footer li {
+    font-size: 1em;
+  }
+
+  #assistance {
+    margin-bottom: -20px;
   }
 }
