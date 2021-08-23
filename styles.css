@@ -275,6 +275,8 @@ header h3 {
 #accommodation {
   display: flex;
   margin-bottom: 90px;
+  flex-wrap: wrap;
+  width: auto;
 }
 
 #marseille {
@@ -282,8 +284,8 @@ header h3 {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 70%;
-  height: 750px;
+  width: 65%;
+  height: auto;
   flex-wrap: wrap;
 }
 
@@ -368,16 +370,14 @@ header h3 {
 
 /* First section --> Aside: Popular  */
 
-aside #popular {
-  flex-wrap: wrap;
-}
-
 #popular {
   width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-left: 60px;
   flex-wrap: wrap;
+  height: auto;
+  display: flex;
 }
 
 .popular_figure {
@@ -385,7 +385,8 @@ aside #popular {
   border-radius: 20px;
   background-color: white;
   box-shadow: #f2f2f2 0 2px 5px;
-  width: 80%;
+  width: auto;
+  height: auto;
   padding: 10px;
 }
 
@@ -445,10 +446,16 @@ aside p {
 
 /* Second section */
 
+#activities_section {
+  max-height: auto;
+  width: auto;
+}
+
 #activities {
   display: flex;
   justify-content: stretch;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .small_photo {
@@ -494,12 +501,13 @@ footer {
   background-color: #f2f2f2;
   margin: 30px -5px -5px -5px;
   padding: 50px 0;
+  flex-wrap: wrap;
 }
 
 #about,
 #footer_accommodations,
 #assistance {
-  width: 40%;
+  width: 30%;
 }
 
 footer ul {
