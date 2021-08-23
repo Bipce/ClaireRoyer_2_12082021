@@ -248,7 +248,6 @@ header h3 {
 }
 
 #info_icon {
-  /* padding-right: 8px; */
   margin-right: 10px;
   background-color: #0065fc;
   color: white;
@@ -516,7 +515,7 @@ footer li {
 
 /* Smartphone design */
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 420px) {
   body {
     margin: 0;
     max-width: 375px;
@@ -632,17 +631,7 @@ footer li {
   #filter {
     flex-direction: column;
     flex-wrap: wrap;
-  }
-
-  #economic_family {
-    display: flex;
-    flex-direction: row;
-    padding-right: 150px;
-  }
-
-  #romantic_pets {
-    display: flex;
-    flex-direction: column;
+    position: relative;
   }
 
   #list-item_economic,
@@ -660,6 +649,9 @@ footer li {
 
   #list-item_family {
     width: 140px;
+    position: absolute;
+    top: 40px;
+    left: 250px;
   }
 
   /* Info */
