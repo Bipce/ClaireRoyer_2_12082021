@@ -552,7 +552,7 @@ footer li {
   #register {
     position: absolute;
     top: 20px;
-    right: 120px;
+    right: 20px;
   }
 
   #menu_register {
@@ -584,7 +584,6 @@ footer li {
 
   #menu_activities {
     margin-left: 40px;
-    padding-right: 5px;
   }
 
   nav a {
@@ -605,7 +604,6 @@ footer li {
     word-wrap: break-word;
     font-size: 1.3em;
     margin-left: 10px;
-    margin-right: 150px;
   }
 
   header h3 {
@@ -620,10 +618,8 @@ footer li {
     position: absolute;
     font-size: 1.2em;
     color: black;
-    /* top: 311px;
-    left: 304px; */
-    top: 310px;
-    left: 290px;
+    top: 261px;
+    left: 303px;
   }
 
   #button {
@@ -670,7 +666,7 @@ footer li {
     width: 140px;
     position: absolute;
     top: 40px;
-    left: 250px;
+    left: 230px;
   }
 
   /* Info */
@@ -700,7 +696,7 @@ footer li {
   #popular {
     margin-top: 20px;
     margin-left: -35px;
-    width: 100%;
+    width: 129%;
   }
 
   #popular h2 {
