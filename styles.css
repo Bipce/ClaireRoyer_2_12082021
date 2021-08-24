@@ -956,7 +956,7 @@ footer li {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 834px) {
   body {
     margin: 0;
     overflow-x: hidden;
@@ -1012,6 +1012,7 @@ footer li {
   #popular aside {
     display: flex;
     flex-direction: row;
+    margin: auto;
   }
 
   #popular figure {
@@ -1045,6 +1046,7 @@ footer li {
 
   #popular article {
     width: 240px;
+    margin: auto;
   }
 
   #popular p {
@@ -1076,11 +1078,13 @@ footer li {
     height: auto;
     order: 2;
     position: relative;
+    margin: auto;
   }
 
   #first_ligne,
   #second_ligne {
     flex-direction: column;
+    margin: auto;
   }
 
   #marseille article {
@@ -1090,5 +1094,9 @@ footer li {
   #more {
     margin-left: -50px;
     padding-bottom: 30px;
+  }
+
+  #activities {
+    margin: auto;
   }
 }
