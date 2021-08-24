@@ -1100,3 +1100,162 @@ footer li {
     margin: auto;
   }
 }
+
+@media screen and (width: 1024px) {
+  #info {
+    margin-bottom: 100px;
+  }
+  /* First section --> Aside: Popular  */
+
+  #popular h2 {
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    flex-wrap: nowrap;
+    font-size: 1.6em;
+    top: -90px;
+  }
+
+  #popular_title {
+    width: 400px;
+    margin-left: -40px;
+  }
+
+  #popular_icon {
+    margin-left: 500px;
+    width: 50px;
+  }
+
+  #popular {
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    order: 1;
+    margin-bottom: 100px;
+    height: 300px;
+  }
+
+  #popular aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #popular figure {
+    flex-direction: column;
+    margin: 10px;
+    height: 260px;
+  }
+
+  #popular img {
+    width: 260px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  #popular_heart {
+    width: 270px;
+  }
+
+  .text {
+    flex-wrap: wrap;
+  }
+
+  #popular .name {
+    font-size: 1em;
+    margin-left: -20px;
+    word-wrap: break-word;
+  }
+
+  #popular article {
+    width: 300px;
+    margin: 0 10px;
+  }
+
+  #popular p {
+    margin-left: -20px;
+  }
+
+  .star_icon_popular {
+    bottom: -35px;
+    left: -20px;
+  }
+
+  #marseille {
+    order: 2;
+  }
+
+  /* First section --> Marseille */
+
+  #accommodation {
+    margin-top: 20px;
+  }
+
+  #marseille h2 {
+    position: absolute;
+    font-size: 1.6em;
+    top: -100px;
+    left: -40px;
+  }
+
+  #marseille {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: auto;
+    order: 2;
+    position: relative;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  #first_ligne,
+  #second_ligne {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #marseille article {
+    width: 450px;
+  }
+
+  #marseille img {
+    width: 440px;
+  }
+
+  #marseille h3 {
+    font-size: 1.3em;
+  }
+
+  #marseille p {
+    margin: 3px 0;
+    font-size: 1em;
+  }
+
+  #more {
+    margin-left: -50px;
+    padding-bottom: 30px;
+  }
+
+  #activities {
+    margin: auto;
+  }
+
+  /* Second section --> Activities */
+
+  #activities {
+    margin: auto;
+  }
+
+  .big_photo,
+  .small_photo {
+    width: 450px;
+  }
+
+  #activities img {
+    width: 440px;
+  }
+
+  #activies p {
+    font-size: 1.2em;
+  }
+}
