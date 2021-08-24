@@ -617,7 +617,8 @@ footer li {
     display: flex;
     font-size: 1.2em;
     color: white;
-    margin-right: 90px;
+    margin-right: 70px;
+    margin-left: 15px;
     margin-bottom: 100px;
     margin-top: -35px;
   }
@@ -636,8 +637,8 @@ footer li {
   #research_button {
     width: 55px;
     border-radius: 20px;
-    margin-right: -34px;
-    margin-top: -52px;
+    margin-right: -50px;
+    margin-top: -53px;
   }
   #button p {
     width: 135%;
@@ -677,7 +678,7 @@ footer li {
     width: 140px;
     position: absolute;
     top: 40px;
-    left: 230px;
+    left: 225px;
   }
 
   /* Info */
