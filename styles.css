@@ -581,9 +581,17 @@ footer li {
     padding: 0;
   }
 
+  nav a {
+    padding-top: 0;
+  }
+
+  nav a:hover {
+    border-top: none;
+  }
+
   #accommodations_activities li {
     border-bottom: solid #f2f2f2;
-    align-items: center;
+    text-align: center;
   }
 
   #menu_accomodations {
