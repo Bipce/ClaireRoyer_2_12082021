@@ -533,7 +533,7 @@ footer li {
   }
 
   #container {
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -579,10 +579,16 @@ footer li {
 
   #menu_accomodations {
     margin-left: -15px;
+    width: 100%;
   }
 
   #menu_activities {
     margin-left: 40px;
+    width: 100%;
+  }
+
+  #menu {
+    width: 100%;
   }
 
   nav a {
@@ -659,6 +665,7 @@ footer li {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
+    margin-left: 5px;
   }
 
   #list-item_economic,
@@ -688,12 +695,19 @@ footer li {
     flex-direction: row;
     word-wrap: break-word;
     margin-right: 120px;
+    width: 85%;
+    margin-bottom: 20px;
+    margin-left: 10px;
   }
 
   /* First section --> Aside: Popular */
 
   #popular {
     order: 1;
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 0;
   }
 
   #marseille {
@@ -705,25 +719,22 @@ footer li {
     flex-direction: column;
   }
 
-  #popular {
-    margin-top: 20px;
-    margin-left: -35px;
-    width: 129%;
-  }
-
   #popular h2 {
     font-size: 1.3em;
+    padding: 0;
+    margin-left: 15px;
   }
 
   #popular_icon {
-    padding-right: 90px;
+    padding-right: 20px;
   }
 
   .popular_figure {
     margin-top: 0;
     margin-bottom: 0;
-    width: 75%;
+    width: 91%;
     padding: 5px;
+    margin: 0 10px;
   }
 
   #popular img {
@@ -731,12 +742,9 @@ footer li {
     height: 140px;
   }
 
-  .popular_figure .name {
-    font-size: 0.9em;
-  }
-
+  .popular_figure .name,
   #popular_heart .name {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   aside p {
@@ -748,9 +756,10 @@ footer li {
   }
 
   #popular_heart {
-    width: 69%;
+    width: 91%;
     padding: 5px;
     word-wrap: break-word;
+    margin: 15px 10px;
   }
 
   #popular_heart h3 {
@@ -769,8 +778,7 @@ footer li {
 
   #marseille {
     background-color: white;
-    width: 85%;
-    margin-left: -10px;
+    width: 100%;
     border-radius: 0;
     height: 1350px;
   }
@@ -787,7 +795,7 @@ footer li {
   }
 
   #marseille article {
-    width: 340px;
+    width: 350px;
     padding: 1px 1px 20px 1px;
     box-shadow: #f2f2f2 5px 5px 10px;
     margin-top: 0;
@@ -796,7 +804,7 @@ footer li {
 
   #marseille article img {
     height: 100px;
-    width: 330px;
+    width: 340px;
   }
 
   #marseille h3 {
@@ -820,11 +828,12 @@ footer li {
 
   #activities img {
     height: 100px;
-    width: 330px;
+    width: 340px;
   }
 
   #activities {
     flex-direction: column;
+    align-items: center;
   }
 
   .big_photo,
@@ -844,6 +853,11 @@ footer li {
 
   section h2 {
     font-size: 1.3em;
+    margin-left: 15px;
+  }
+
+  #activities {
+    align-items: center;
   }
 
   #activities p {
@@ -894,16 +908,16 @@ footer li {
   .popular_figure {
     margin-top: 0;
     margin-bottom: 0;
-    width: 78%;
+    width: 91%;
     padding: 5px;
   }
 
   #popular_heart {
-    width: 72%;
+    width: 91%;
   }
 
   #popular .name {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   #popular p {
@@ -913,7 +927,7 @@ footer li {
   /* First section --> Marseille */
 
   #marseille {
-    width: 85%;
+    width: 100%;
   }
 
   #first_ligne,
@@ -922,12 +936,12 @@ footer li {
   }
 
   #marseille article {
-    width: 378px;
+    width: 390px;
   }
 
   #marseille article img {
     height: 100px;
-    width: 368px;
+    width: 380px;
   }
 
   #marseille article h3 {
@@ -940,9 +954,13 @@ footer li {
 
   /* Second section --> Activities */
 
+  #activities {
+    align-items: center;
+  }
+
   #activities img {
     height: 100px;
-    width: 360px;
+    width: 370px;
   }
 
   .big_photo,
@@ -963,14 +981,35 @@ footer li {
   }
 
   #container {
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
+  }
+
+  header {
+    margin-left: 10px;
+  }
+
+  #logo,
+  header h2,
+  header h3,
+  #button,
+  #info,
+  #filter {
+    margin-left: 20px;
+  }
+
+  #register {
+    margin-right: 15px;
   }
 
   /* Filter */
 
   #filter li {
     margin-bottom: 10px;
+  }
+
+  #list-item_pets {
+    margin-left: 50px;
   }
 
   /* Info */
@@ -1007,6 +1046,8 @@ footer li {
     order: 1;
     margin-bottom: 100px;
     height: 300px;
+    padding-left: 10px;
+    border-radius: 0;
   }
 
   #popular aside {
@@ -1068,7 +1109,7 @@ footer li {
     position: absolute;
     font-size: 1.5em;
     top: -100px;
-    left: -40px;
+    left: -20px;
   }
 
   #marseille {
@@ -1079,6 +1120,7 @@ footer li {
     order: 2;
     position: relative;
     margin: auto;
+    border-radius: 0;
   }
 
   #first_ligne,
@@ -1091,9 +1133,21 @@ footer li {
     width: 330px;
   }
 
+  #marseille img {
+    width: 320px;
+  }
+
   #more {
-    margin-left: -50px;
+    margin-left: -30px;
     padding-bottom: 30px;
+  }
+
+  #activities_section {
+    margin: 0 10px;
+  }
+
+  #activities_section h2 {
+    margin-left: 20px;
   }
 
   #activities {
@@ -1102,6 +1156,27 @@ footer li {
 }
 
 @media screen and (width: 1024px) {
+  #container {
+    width: 100%;
+  }
+
+  header {
+    margin-left: 10px;
+  }
+
+  #logo,
+  header h2,
+  header h3,
+  #button,
+  #info,
+  #filter {
+    margin-left: 20px;
+  }
+
+  #register {
+    margin-right: 15px;
+  }
+
   #info {
     margin-bottom: 100px;
   }
@@ -1129,10 +1204,12 @@ footer li {
   #popular {
     width: 100%;
     margin-left: 0px;
+    padding-left: 20px;
     position: relative;
     order: 1;
     margin-bottom: 100px;
     height: 300px;
+    border-radius: 0;
   }
 
   #popular aside {
@@ -1194,7 +1271,7 @@ footer li {
     position: absolute;
     font-size: 1.6em;
     top: -100px;
-    left: -40px;
+    left: -20px;
   }
 
   #marseille {
@@ -1206,6 +1283,7 @@ footer li {
     position: relative;
     margin: auto;
     flex-wrap: wrap;
+    border-radius: 0;
   }
 
   #first_ligne,
@@ -1232,15 +1310,15 @@ footer li {
   }
 
   #more {
-    margin-left: -50px;
+    margin-left: -40px;
     padding-bottom: 30px;
   }
 
-  #activities {
-    margin: auto;
-  }
-
   /* Second section --> Activities */
+
+  #activities_section {
+    margin: 0 15px;
+  }
 
   #activities {
     margin: auto;
@@ -1252,7 +1330,7 @@ footer li {
   }
 
   #activities img {
-    width: 440px;
+    width: 450px;
   }
 
   #activies p {
