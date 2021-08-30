@@ -243,6 +243,14 @@ header h3 {
   border-radius: 100px;
 }
 
+#list-item_economic:hover,
+#list-item_family:hover,
+#list-item_romantic:hover,
+#list-item_pets:hover {
+  background-color: #deebff;
+  transition: 0.3s;
+}
+
 /* Info */
 
 #info {
@@ -260,14 +268,6 @@ header h3 {
   height: 20px;
   font-size: 1.3em;
   margin-top: 15px;
-}
-
-#list-item_economic:hover,
-#list-item_family:hover,
-#list-item_romantic:hover,
-#list-item_pets:hover {
-  background-color: #deebff;
-  transition: 0.3s;
 }
 
 /* First section --> Marseille */
