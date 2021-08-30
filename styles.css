@@ -585,6 +585,10 @@ footer li {
     padding-top: 0;
   }
 
+  nav :active {
+    color: #0065fc;
+  }
+
   nav a:hover {
     border-top: none;
   }
@@ -600,7 +604,6 @@ footer li {
 
   #menu_accomodations:active {
     border-bottom: solid #0065fc;
-    color: #0065fc;
   }
 
   #menu_activities:active {
