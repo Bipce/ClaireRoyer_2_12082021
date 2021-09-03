@@ -301,9 +301,12 @@ header h3 {
   border-radius: 20px;
   background-color: white;
   box-shadow: #f2f2f2 0 2px 5px;
-  margin: 10px;
   padding: 5px 5px 20px 5px;
   flex-wrap: wrap;
+}
+
+#marseille a {
+  margin: 10px;
 }
 
 #marseille article img {
@@ -374,10 +377,11 @@ header h3 {
   width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
-  margin-left: 60px;
   flex-wrap: wrap;
   height: auto;
   display: flex;
+  margin: auto;
+  padding-left: 25px;
 }
 
 .popular_figure {
@@ -385,9 +389,10 @@ header h3 {
   border-radius: 20px;
   background-color: white;
   box-shadow: #f2f2f2 0 2px 5px;
-  width: auto;
+  width: 450px;
   height: auto;
   padding: 10px;
+  margin: 0;
 }
 
 #popular_heart {
@@ -395,8 +400,15 @@ header h3 {
   border-radius: 20px;
   background-color: white;
   box-shadow: #f2f2f2 0 2px 5px;
-  width: 80%;
+  width: 460px;
+  margin: auto;
   padding: 10px 0 10px 10px;
+  margin: 0;
+}
+
+#popular a {
+  margin: 20px;
+  width: 450px;
 }
 
 .popular_description {
@@ -437,11 +449,12 @@ header h3 {
 
 .name {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 aside p {
   margin: 5px 0 0 0;
+  font-size: 1.1em;
 }
 
 /* Second section */
@@ -722,6 +735,8 @@ footer li {
     margin-top: 20px;
     margin: auto;
     border-radius: 0;
+    align-items: center;
+    padding-left: 0;
   }
 
   #marseille {
@@ -748,7 +763,6 @@ footer li {
     margin-bottom: 0;
     width: 91%;
     padding: 5px;
-    margin: 0 10px;
   }
 
   #popular img {
@@ -770,10 +784,9 @@ footer li {
   }
 
   #popular_heart {
-    width: 91%;
+    width: 330px;
     padding: 5px;
     word-wrap: break-word;
-    margin: 15px 10px;
   }
 
   #popular_heart h3 {
@@ -794,7 +807,11 @@ footer li {
     background-color: white;
     width: 100%;
     border-radius: 0;
-    height: 1350px;
+    /* height: 1350px; */
+  }
+
+  #marseille a {
+    margin: 10px;
   }
 
   #first_ligne,
@@ -812,8 +829,8 @@ footer li {
     width: 350px;
     padding: 1px 1px 20px 1px;
     box-shadow: #f2f2f2 5px 5px 10px;
-    margin-top: 0;
-    margin-bottom: 12px;
+    /* margin-top: 0; */
+    /* margin-bottom: 12px; */
   }
 
   #marseille article img {
@@ -870,10 +887,6 @@ footer li {
     margin-left: 15px;
   }
 
-  #activities {
-    align-items: center;
-  }
-
   #activities p {
     font-size: 0.9em;
   }
@@ -927,7 +940,7 @@ footer li {
   }
 
   #popular_heart {
-    width: 91%;
+    width: 370px;
   }
 
   #popular .name {
@@ -1067,6 +1080,20 @@ footer li {
     height: 300px;
     padding-left: 10px;
     border-radius: 0;
+    align-items: center;
+  }
+
+  #popular a {
+    width: 200px;
+    margin: 0 20px 0 20px;
+  }
+
+  #popular_heart {
+    width: 190px;
+  }
+
+  #popular article {
+    margin: 0;
   }
 
   #popular aside {
@@ -1077,7 +1104,6 @@ footer li {
 
   #popular figure {
     flex-direction: column;
-    margin: 10px;
     height: 260px;
   }
 
@@ -1234,6 +1260,8 @@ footer li {
     margin-bottom: 100px;
     height: 300px;
     border-radius: 0;
+    padding-bottom: 40px;
+    padding-left: 25px;
   }
 
   #popular aside {
@@ -1242,10 +1270,14 @@ footer li {
     justify-content: space-between;
   }
 
+  #popular a {
+    width: 280px;
+  }
+
   #popular figure {
     flex-direction: column;
-    margin: 10px;
     height: 260px;
+    width: 260px;
   }
 
   #popular img {
@@ -1254,7 +1286,7 @@ footer li {
   }
 
   #popular_heart {
-    width: 270px;
+    padding-right: 10px;
   }
 
   .text {
@@ -1269,7 +1301,6 @@ footer li {
 
   #popular article {
     width: 300px;
-    margin: 0 10px;
   }
 
   #popular p {
