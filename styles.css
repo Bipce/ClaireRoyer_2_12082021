@@ -536,6 +536,181 @@ footer li {
   margin: 10px 0;
 }
 
+/* Small screen */
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  #accommodation {
+    justify-content: space-between;
+  }
+
+  /* First section --> Marseille */
+
+  #marseille img {
+    width: 25vh;
+    height: 150px;
+  }
+
+  #marseille article {
+    width: 26vh;
+  }
+
+  #marseille,
+  #popular {
+    height: 750px;
+  }
+
+  /* First section --> Aside: Popular */
+
+  #popular {
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .popular_figure {
+    width: 35vh;
+  }
+
+  #popular_heart {
+    width: 36vh;
+  }
+
+  #popular img {
+    width: 15vh;
+  }
+
+  #blue_and_white {
+    width: 18vh;
+  }
+
+  #popular h3 {
+    font-size: 0.9em;
+  }
+
+  #popular p {
+    font-size: 1em;
+  }
+
+  #popular a {
+    margin-bottom: 30px;
+  }
+
+  #popular h2 {
+    padding-left: 30px;
+  }
+
+  #popular_icon {
+    padding-right: 100px;
+  }
+
+  /* Second section --> Activities */
+
+  #old_harbor,
+  #calanques {
+    width: 300px;
+  }
+
+  #pomegues,
+  #frioul,
+  #garde,
+  #lonchamp {
+    width: 300px;
+  }
+}
+
+/* Very small screen */
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  #accommodation {
+    flex-direction: column;
+  }
+  /* First section --> Aside: Popular */
+
+  #popular {
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    order: 1;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 220px;
+  }
+
+  aside {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  aside h2 {
+    position: absolute;
+    top: -100px;
+    left: -40px;
+  }
+
+  #popular_title {
+    width: 500px;
+  }
+
+  #popular_icon {
+    margin-left: 400px;
+  }
+
+  #popular a {
+    width: 250px;
+    margin: 0 30px;
+  }
+
+  .popular_figure {
+    width: 260px;
+  }
+
+  #popular_heart {
+    width: 260px;
+  }
+
+  #popular_heart h3 {
+    font-size: 0.8em;
+  }
+
+  #popular img {
+    width: 10vh;
+  }
+
+  #popular h3 {
+    font-size: 0.8em;
+  }
+
+  #popular p {
+    font-size: 0.9em;
+  }
+
+  /* First section --> Marseille */
+
+  #marseille {
+    order: 2;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  #marseille img {
+    width: 25vh;
+  }
+  #marseille article {
+    width: 26vh;
+  }
+
+  #marseille h3 {
+    font-size: 1em;
+  }
+
+  #marseille p {
+    font-size: 0.9em;
+  }
+}
+
 /* Smartphone design */
 
 @media screen and (min-width: 360px) and (max-width: 414px) {
@@ -999,7 +1174,50 @@ footer li {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 834px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  /* No cut resolution */
+
+  input {
+    width: 180px;
+  }
+
+  #research_button {
+    width: 100px;
+  }
+
+  #marseille,
+  #popular {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .popular_figure,
+  #popular_heart {
+    width: 300px;
+  }
+
+  #popular h3,
+  #popular p {
+    font-size: 0.9em;
+  }
+
+  #popular h2 {
+    padding-left: 30px;
+  }
+
+  #popular_icon {
+    margin-right: 50px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
   body {
     margin: 0;
     overflow-x: hidden;
@@ -1198,7 +1416,7 @@ footer li {
   }
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 971px) and (max-width: 1024px) {
   #container {
     width: 100%;
   }
